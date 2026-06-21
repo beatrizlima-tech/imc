@@ -1,42 +1,60 @@
-# Calculadora de IMC
+# 📊 Calculadora de IMC
 
-Aplicação desenvolvida para calcular o Índice de Massa Corporal (IMC) a partir do peso e da altura informados pelo usuário. O projeto foi criado com foco em praticar lógica de programação, manipulação do DOM e estruturação de funções em JavaScript.
+Aplicação web desenvolvida com HTML, CSS e JavaScript para cálculo do Índice de Massa Corporal (IMC), permitindo ao usuário informar peso e altura e receber automaticamente sua classificação de acordo com os parâmetros da Organização Mundial da Saúde (OMS).
 
-## 🚀 Tecnologias utilizadas
-- HTML5
-- CSS3
-- JavaScript
+## 🚀 Tecnologias Utilizadas
 
-## 📌 Funcionalidades
-- Entrada de peso e altura
-- Cálculo automático do IMC
-- Exibição do resultado na tela
-- Classificação do IMC de acordo com a faixa correspondente
+* HTML5
+* CSS3
+* JavaScript
 
-## 🎯 Objetivo do projeto
-Este projeto foi desenvolvido para reforçar conceitos fundamentais de desenvolvimento front-end, como:
-- manipulação de elementos no DOM
-- captura de dados de formulários
-- uso de funções e condicionais em JavaScript
-- exibição dinâmica de informações na interface
+## 📋 Funcionalidades
 
-## ▶️ Como executar o projeto
-1. Clone este repositório:
+* Cálculo automático do IMC
+* Classificação do resultado
+* Interface responsiva
+* Feedback visual através de cores
+* Validação dos campos obrigatórios
+
+## 📊 Classificações
+
+| IMC            | Classificação   |
+| -------------- | --------------- |
+| Menor que 18,5 | Magreza         |
+| 18,5 a 24,9    | Normal          |
+| 25,0 a 29,9    | Sobrepeso       |
+| 30,0 a 39,9    | Obesidade       |
+| Acima de 40    | Obesidade Grave |
+
+## 🖥️ Como Executar
+
+1. Clone o repositório:
+
 ```bash
-git clone <PRIVATE_URL>
+git clone https://github.com/beatrizlima-tech/imc.git
 ```
 
-2. Acesse a pasta do projeto
+2. Abra o arquivo:
 
-3. Abra o arquivo `index.html` no navegador
+```text
+index.html
+```
 
-## 📚 Aprendizados
-Durante o desenvolvimento deste projeto, foram praticados:
-- lógica para cálculo e classificação de IMC
-- organização do código JavaScript em funções
-- manipulação de eventos e atualização de conteúdo na página
-- estruturação de uma aplicação front-end simples
+em qualquer navegador.
 
-## 👩🏻‍💻 Autora
-Beatriz Lima  
-[GitHub](<PRIVATE_URL>)
+## 🎯 Objetivo do Projeto
+
+Projeto desenvolvido para praticar:
+
+* Manipulação do DOM
+* Eventos JavaScript
+* Estruturas condicionais
+* Responsividade com CSS
+* Desenvolvimento de interfaces web
+
+## 👩‍💻 Desenvolvedora
+
+Beatriz Lima
+
+GitHub:
+https://github.com/beatrizlima-tech
